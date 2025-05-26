@@ -1,0 +1,49 @@
+/* card */
+
+.card{
+    flex-wrap: wrap;
+    gap:80px 24px;
+}
+.card-item{
+    width: 30%;
+}
+
+.card-item .card-head{
+    margin-bottom: 16px;
+}
+.card-body{
+    margin-bottom: 4px;
+}
+.card-body .date{
+    font-size: 16px;
+    color: #000;
+}
+
+.hashtag{
+    display: flex;
+    align-items: center;
+}
+.hashtag>a{
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.card-body .tittle{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-body .desc{
+    margin-bottom: 16px;
+}
+
+@media(max-width: 992px) {
+    .article{
+
+    }
+
+    .card-item{
+        width: 100%;
+    }
+}

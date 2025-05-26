@@ -1,0 +1,73 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+body{
+    font-family:'Noto Sans TC', sans-serif;
+    font-weight: 500;
+}
+
+/* 模組 */
+.flex{
+    display: flex;
+}
+
+.btn-gray{
+    color: #4B4B4B;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 40px;
+    border:#4B4B4B 1px solid;
+}
+
+.btn-gray:hover{
+    border:none;
+    background-color: #0027d5;
+    color: #fff;
+}
+
+.btn-blue{
+    color: #fff;
+    text-align: center;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 40px;
+    background-color: #0027d5;
+    border:#0027d5 1px solid;
+}
+
+.btn-blue:hover{
+    border:none;
+    background-color: #fff;
+    color: #4B4B4B;
+    border:#4B4B4B 1px solid;
+}
+
+/* 省略多行 */
+.twoline-ellipsis{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* color */
+.color-blue{
+    color:#0027D5;
+}
+
+.color-gray{
+    color: #4B4B4B;
+}
+
+
+/* 區域css */
+.wrap{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.article{
+    margin: 80px auto;
+    width: 67.5%;
+}
+
