@@ -6,6 +6,7 @@
 body{
     font-family:'Noto Sans TC', sans-serif;
     font-weight: 500;
+    line-height: 1.5;
 }
 
 /* 模組 */
@@ -31,7 +32,6 @@ body{
     color: #fff;
     text-align: center;
     padding: 6px 12px;
-    font-size: 16px;
     border-radius: 40px;
     background-color: #0027d5;
     border:#0027d5 1px solid;
@@ -68,8 +68,77 @@ body{
     max-width: 1296px;
 }
 
-.article{
-    margin: 80px auto;
-    width: 100%;
+/* header */
+/* nav */
+.nav-ul{
+    font-weight: 700;
+    font-size: 28px;
+    gap: 40px;
+    justify-content: center;
+    padding: 24px 0;
 }
 
+.nav-item:hover{
+    color: #0027D5;
+}
+/* banner */
+.banner{
+    width: 50%;
+}
+.banner .banner-R{
+    color: #0027D5;
+    gap: 12px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+    align-items: center;
+}
+
+.banner-R .text{
+    padding-left: 80px;
+}
+.banner .title{
+    font-size: 120px;
+    font-weight: 900;
+}
+.banner .sub-title{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+/* footer */
+.footer .contact{
+    justify-content: space-between;
+    margin: 80px auto;
+}
+
+.footer .email{
+    font-size: 32px;
+}
+
+.social-media{
+    color: #0027D5;
+    gap: 4px;
+}
+
+.social-media .icon{
+    max-width: 44px;
+    height: auto;
+    display: inline-block;
+}
+
+.social-media a:hover{
+    background-color: #F0F2F4;
+    border-radius: 8px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: medium;
+    margin: 24px auto;
+}
+
+@media(max-width: 992px) {
+    .contact{
+        display: none;
+    }
+}

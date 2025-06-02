@@ -1,3 +1,55 @@
+body{
+    background-color: #FBFBFB;
+}
+/* header */
+.header{
+    border-bottom: 1px solid #6c757d;
+}
+
+/* new-article */
+.new-article{
+    border-bottom: 1px solid #6c757d;
+    gap: 24px;
+}
+
+.new-article img{
+    width: 100%;
+    height: auto;
+}
+
+.new-article .card-body{
+    align-items: center;
+    gap: 16px;
+}
+
+.new-article .about-section{
+    width: 50%;
+}
+
+.about-section .desc{
+    max-width:636px;
+}
+
+@media(max-width: 992px) {
+    .new-article{
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .new-article .about-section{
+        width: 100%;
+    }
+    .new-article .card-body{
+        padding: 48px 12px;
+    }
+}
+
+/* article */
+.article{
+    padding: 80px 0;
+    width: 100%;
+    border-bottom: 1px solid #6c757d;
+}
+
 /* form */
 .search-article{
     margin-bottom: 40px;
@@ -5,15 +57,17 @@
     padding: 8px 16px;
     border-radius: 40px;
     border:#4B4B4B 1px solid;
+    max-width: 416px;
 }
 .search-article input{
     border: none;
     outline: none;
+    background-color: #FBFBFB;
 }
 .search-article button{
     border: none;
     outline: none;
-    background-color: #fff;
+    background-color: #FBFBFB;
 }
 
 /* card */
@@ -21,6 +75,7 @@
 .card{
     flex-wrap: wrap;
     gap:80px 24px;
+    margin-bottom: 40px;
 }
 .card-item{
     width: calc((100% - 24px * 2) / 3);
@@ -58,9 +113,48 @@
     margin-bottom: 16px;
 }
 
+/* switch-pages */
+.switch-pages{
+    color: #4B4B4B;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #fff;
+    min-width: 328px;
+}
+
+.number .index{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.page-btn{
+    padding: 16px 0;
+    display: inline-block;
+}
+
+.page-btn img{
+    width: 24px;
+    height: 24px;
+}
+
+.number .active{
+    color: #0027D5;
+}
+
+.page-btn:hover, .index:hover{
+    opacity: 0.6;
+}
+
+
 @media(max-width: 992px) {
+    .article{
+    padding-left: 12px;
+    padding-right: 12px;
+    }
     .card-item{
         width: 100%;
-        padding: 0 15px;
     }
 }
