@@ -44,6 +44,23 @@ body{
     border:#4B4B4B 1px solid;
 }
 
+/* social-media icon */
+.social-media{
+    color: #0027D5;
+    gap: 4px;
+}
+
+.social-media .icon{
+    max-width: 44px;
+    height: auto;
+    display: inline-block;
+}
+
+.social-media a:hover{
+    background-color: #F0F2F4;
+    border-radius: 8px;
+}
+
 /* 省略多行 */
 .twoline-ellipsis{
     display: -webkit-box;
@@ -63,12 +80,21 @@ body{
 
 
 /* 區域css */
-.wrap{
+.container{
     margin: 0 auto;
     max-width: 1296px;
 }
+.lineB{
+    border-bottom: #6c757d 1px solid;
+}
+.lineT{
+    border-top: #6c757d 1px solid;
+}
 
 /* header */
+.header{
+    
+}
 /* nav */
 .nav-ul{
     font-weight: 700;
@@ -81,8 +107,9 @@ body{
 .nav-item:hover{
     color: #0027D5;
 }
+
 /* banner */
-.banner{
+.banner-L, .banner-R{
     width: 50%;
 }
 .banner .banner-R{
@@ -90,11 +117,9 @@ body{
     gap: 12px;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
     align-items: center;
-}
-
-.banner-R .text{
     padding-left: 80px;
 }
+
 .banner .title{
     font-size: 120px;
     font-weight: 900;
@@ -104,6 +129,20 @@ body{
     font-size: 28px;
 }
 
+@media(max-width: 992px) {
+    .banner{
+        flex-wrap: wrap;
+    }
+    .banner-L, .banner-R{
+    width: 100%;
+    }
+    .banner .banner-R{
+        padding: 24px 0 24px 24px;
+    }
+    .banner .title{
+        font-size: 52px;
+    } 
+}
 
 /* footer */
 .footer .contact{
@@ -115,26 +154,11 @@ body{
     font-size: 32px;
 }
 
-.social-media{
-    color: #0027D5;
-    gap: 4px;
-}
-
-.social-media .icon{
-    max-width: 44px;
-    height: auto;
-    display: inline-block;
-}
-
-.social-media a:hover{
-    background-color: #F0F2F4;
-    border-radius: 8px;
-}
-
 .copyright{
     text-align: center;
     font-size: medium;
-    margin: 24px auto;
+    background-color: #ffffff;
+    padding: 24px 0;
 }
 
 @media(max-width: 992px) {

@@ -1,0 +1,13 @@
+.intro{
+    background-color: #fff;
+    width: 1077px;
+    padding: 80px 40px;
+    gap: 16px;
+    margin-top: -160px;
+    position: relative;
+    display: inline-block;
+    margin-right: 80px;
+}
+.intro .desc{
+    font-size: 28px;
+}
