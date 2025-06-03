@@ -9,9 +9,18 @@ body{
     line-height: 1.5;
 }
 
+h2, h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 /* 模組 */
 .flex{
     display: flex;
+}
+
+.flip-2n li:nth-child(even){
+    flex-direction: row-reverse;
 }
 
 .btn-gray{
@@ -90,6 +99,9 @@ body{
 .lineT{
     border-top: #6c757d 1px solid;
 }
+.line{
+    border:#6c757d 1px solid;
+}
 
 /* header */
 .header{
@@ -97,8 +109,6 @@ body{
 }
 /* nav */
 .nav-ul{
-    font-weight: 700;
-    font-size: 28px;
     gap: 40px;
     justify-content: center;
     padding: 24px 0;
@@ -116,6 +126,8 @@ body{
     color: #0027D5;
     gap: 12px;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
     align-items: center;
     padding-left: 80px;
 }
@@ -123,10 +135,6 @@ body{
 .banner .title{
     font-size: 120px;
     font-weight: 900;
-}
-.banner .sub-title{
-    font-weight: 700;
-    font-size: 28px;
 }
 
 @media(max-width: 992px) {

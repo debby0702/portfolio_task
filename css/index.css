@@ -2,12 +2,42 @@
     background-color: #fff;
     width: 1077px;
     padding: 80px 40px;
-    gap: 16px;
-    margin-top: -160px;
     position: relative;
-    display: inline-block;
-    margin-right: 80px;
+    margin-top: -160px;
+    right: 40px;
+    gap: 16px;
 }
 .intro .desc{
     font-size: 28px;
+    gap: 16px;
+}
+
+/* service */
+.service-ul{
+    gap: 64px;
+}
+.service-img{
+    max-width: 636px;
+    height: auto;
+}
+.service-text{
+    width: 420px;
+    background-color: #d05b5b;
+    padding: 24px;
+    margin-left: -40px;
+}
+
+.more-info{
+    gap: 8px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+}
+.more-info>a{
+    display: inline-block;
+}
+
+.more-info:hover{
+    color: #0027d5;
+    
 }
