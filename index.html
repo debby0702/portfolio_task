@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -35,7 +36,7 @@
                     </div>
                 </div>
                 <div class="banner-content">
-                    <div class="desc">
+                    <div class="banner-text">
                         <p>嗨，我是 Alyse 一名深耕前端技術的工程師。</p>
                         <p>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
                     </div>
@@ -52,43 +53,43 @@
                     </ul>
                 </div>
             </section>
-            <section class="section service lineB">
+            <section class="service section lineB">
                 <div class="container">
                     <h2 class="section-title">專業服務與方案</h2>
                     <ul class="service-ul">
-                        <li class="service-item flex">
+                        <li class="service-item v-center flex">
                             <img class="service-head"
                                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo.png?raw=true"
                                 alt="履歷健檢">
                             <div class="service-body ">
-                                <h3 class="title">履歷健檢</h3>
+                                <h3 class="title dash-BL">履歷健檢</h3>
                                 <p class="desc">履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
                             </div>
                         </li>
-                        <li class="service-item flex flip">
+                        <li class="service-item v-center flex flip">
                             <img class="service-head"
                                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo2.png?raw=true"
                                 alt="線上諮詢">
                             <div class="service-body ">
-                                <h3 class="title">線上諮詢</h3>
+                                <h3 class="title dash-BL">線上諮詢</h3>
                                 <p class="desc">想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。</p>
                             </div>
                         </li>
-                        <li class="service-item flex">
+                        <li class="service-item v-center flex">
                             <img class="service-head"
                                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo3.png?raw=true"
                                 alt="網頁開發">
                             <div class="service-body ">
-                                <h3 class="title">網頁開發</h3>
+                                <h3 class="title dash-BL">網頁開發</h3>
                                 <p class="desc">想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
                             </div>
                         </li>
-                        <li class="service-item flex flip">
+                        <li class="service-item v-center flex flip">
                             <img class="service-head"
                                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo4.png?raw=true"
                                 alt="企業內訓">
                             <div class="service-body ">
-                                <h3 class="title">企業內訓</h3>
+                                <h3 class="title dash-BL">企業內訓</h3>
                                 <p class="desc">想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。</p>
                             </div>
                         </li>
@@ -96,8 +97,8 @@
                     <a class="more-info" href="javascript:;">聯繫我，取得更多資訊 <i class="bi bi-arrow-right-circle"></i></a>
                 </div>
             </section>
-            <section class="section blog lineB">
-                <div class="container ">
+            <section class="blog section lineB">
+                <div class="container">
                     <h2 class="section-title">部落格精選</h2>
                     <!-- Slider main container -->
                     <div class="swiper-wrapper-area">
@@ -209,23 +210,199 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="swiper-button-prev end"><i class="bi bi-arrow-left-circle-fill"></i></div>
-                        <div class="swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i></div>
+                        <div class="swiper-button swiper-button-prev"><i class="bi bi-arrow-left-circle-fill"></i></div>
+                        <div class="swiper-button swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i>
+                        </div>
                     </div>
-
                 </div>
             </section>
-            <section class="section case lineB">
+            <section class="case section lineB">
                 <div class="container">
                     <h2 class="section-title">職涯諮詢成功案例</h2>
+                    <section class="case-head flex">
+                        <img class="case-img"
+                            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo8.png?raw=true"
+                            alt="const picture">
+                        <div class="case-desc flex">
+                            <div class="case-desc-top v-center">
+                                <p class="dash-BL">在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效
+                                    <span class="color-blue">突破原有的舒適圈</span>。
+                                </p>
+                            </div>
+                            <div class="case-desc-bottom v-center">
+                                <p class="dash-BL">期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
+                                <a class="btn btn-line-blue" href="javascript:;">立即預約諮詢</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="case-body">
+                        <ul class="podcast flex">
+                            <li class="podcast-item">
+                                <img class="podcast-img"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people.png?raw=true"
+                                    alt="podcast picture">
+                                <h3 class="podcast-title">無經驗到前端工程師 Offer</h3>
+                                <ul class="check-box">
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        打造前端專案與履歷亮點</li>
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        深度強化面試表現</li>
+                                </ul>
+                                <a class="btn btn-gray" href="javascript">前往聆聽 podcast</a>
+                            </li>
+                            <li class="podcast-item">
+                                <img class="podcast-img"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people2.png?raw=true"
+                                    alt="podcast picture">
+                                <h3 class="podcast-title">轉職迷茫到明確學習規劃</h3>
+                                <ul class="check-box">
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        制訂階段性目標與時間安排</li>
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        鼓勵參與前端社群或活動</li>
+                                </ul>
+                                <a class="btn btn-gray" href="javascript">前往聆聽 podcast</a>
+                            </li>
+                            <li class="podcast-item">
+                                <img class="podcast-img"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people3.png?raw=true"
+                                    alt="podcast picture">
+                                <h3 class="podcast-title">面試緊張到從容應對</h3>
+                                <ul class="check-box">
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        透過面試模擬找出常犯的邏輯漏洞</li>
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        討論遇到不熟悉議題時的回應方式</li>
+                                </ul>
+                                <a class="btn btn-gray" href="javascript">前往聆聽 podcast</a>
+                            </li>
+                            <li class="podcast-item">
+                                <img class="podcast-img"
+                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/people4.png?raw=true"
+                                    alt="podcast picture">
+                                <h3 class="podcast-title">面試緊張到從容應對</h3>
+                                <ul class="check-box">
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        擬定進階框架或技術研究目標</li>
+                                    <li class="check-box-item"><i class="bi bi-check-square-fill color-blue"></i>
+                                        培養跨團隊溝通與簡報能力</li>
+                                </ul>
+                                <a class="btn btn-gray" href="javascript">前往聆聽 podcast</a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </section>
+            <section class="subscribe section lineB">
+                <div class="subscribe-wrap flex">
+                    <div class="subscribe-img"></div>
+                    <div class="subscribe-content-wrap flex" id="mc_embed_shell">
+                        <div id="mc_embed_signup" class="subscribe-content">
+                            <form
+                                action="https://gmail.us4.list-manage.com/subscribe/post?u=5155e2b3e8f7bdf41d568984b&amp;id=e43028e433&amp;f_id=006fa6e2f0"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank">
+                                <div id="mc_embed_signup_scroll">
+                                    <h2 class="section-title">訂閱電子報</h2>
+                                    <p class="subscribe-desc">立即訂閱，搶先掌握<span class="color-blue">前端 x 職涯</span>的獨家資訊！</p>
+                                    <div class="mc-field-group"><input type="text" name="FNAME" class="required text"
+                                            id="mce-FNAME" required="" value="" placeholder="請輸入您的大名"></div>
+                                    <div class="mc-field-group"><input type="email" name="EMAIL" class="required email"
+                                            id="mce-EMAIL" required="" value="" placeholder="請輸入您的電子信箱"></div>
+                                    <!-- <div hidden=""><input type="hidden" name="tags" value="7230648"></div> -->
+                                    <div id="mce-responses" class="clear foot">
+                                        <div class="response" id="mce-error-response" style="display: none;"></div>
+                                        <div class="response" id="mce-success-response" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                        /* real people should not fill this in and expect good things - do not
+                                        remove this or risk form bot signups */
+                                        <input type="text" name="b_5155e2b3e8f7bdf41d568984b_e43028e433" tabindex="-1"
+                                            value="">
+                                    </div>
+                                    <div class="optionalParent">
+                                        <div class="clear foot ">
+                                            <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                                                class="button btn-line-blue" value="啟動訂閱">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact section lineB">
+                <div class="container">
+                    <h2 class="section-title">與我聯繫</h2>
+                    <ul class="contact-ul">
+                        <li class="contact-item lineB">
+                            <a class="flex" href="mailto:alysewang@hexschool.com">
+                                <div class="contact-text">
+                                    <span class="fz32">alysewang@hexschool.com</span> 合作洽談
+                                </div>
+                                <div class="arrow"><i class="bi bi-arrow-right"></i></div>
+                            </a>
+                        </li>
+                        <li class="contact-item lineB">
+                            <a class="flex" href="javascript:;">
+                                <div class="contact-text">
+                                    <img class="icon" src="./img/blog/IconYT.svg" alt="YT icon">
+                                    <span>Youtube 職涯諮詢室</span>
+                                </div>
+                                <div class="arrow"><i class="bi bi-arrow-right"></i></div>
+                            </a>
+                        </li>
+                        <li class="contact-item lineB">
+                            <a class="flex" href="javascript:;">
+                                <div class="contact-text">
+                                    <img class="icon" src="./img/blog/IconPodcast.svg" alt="YT icon">
+                                    <span>podcast 職涯諮詢室</span>
+                                </div>
+                                <div class="arrow"><i class="bi bi-arrow-right"></i></div>
+                            </a>
+                        </li>
+                        <li class="contact-item lineB">
+                            <a class="flex" href="javascript:;">
+                                <div class="contact-text">
+                                    <img class="icon" src="./img/blog/IconFB.svg" alt="YT icon">
+                                    <span>Facebook 前端社群</span>
+                                </div>
+                                <div class="arrow"><i class="bi bi-arrow-right"></i></div>
+                            </a>
+                        </li>
+                        <li class="contact-item lineB">
+                            <a class="flex" href="javascript:;">
+                                <div class="contact-text">
+                                    <img class="icon" src="./img/blog/iconlinkedin.svg" alt="YT icon">
+                                    <span>linkedin 職涯交流</span>
+                                </div>
+                                <div class="arrow"><i class="bi bi-arrow-right"></i></div>
+                            </a>
+                        </li>
+                        <li class="contact-item lineB">
+                            <a class="flex" href="javascript:;">
+                                <div class="contact-text">
+                                    <img class="icon" src="./img/blog/IconIG.svg" alt="YT icon">
+                                    <span>Instagram 日常分享</span>
+                                </div>
+                                <div class="arrow"><i class="bi bi-arrow-right"></i></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
         </main>
         <footer class="footer">
-            <p>© 2025 Alyse Wang. All rights reserved.</p>
+            <p class="copyright">© 2025 Alyse Wang. All rights reserved.</p>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script
+        type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'COMPANY'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
     <script>
         const swiper = new Swiper('.swiper', {
             // Optional parameters
@@ -240,9 +417,6 @@
             breakpoints: {
                 320: {
                     slidesPerView: 1,
-                },
-                576: {
-                    slidesPerView: 2,
                 },
                 992: {
                     slidesPerView: 3,
