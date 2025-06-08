@@ -1,18 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>自學前端不用怕：從零開始的三大關鍵</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/article.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/article.css">
 </head>
+
 <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer">
-        <p class="copyright">© 2025 Alyse Wang. All rights reserved.</p>
-    </footer>
+    <div class="wrap">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-ul flex">
+                    <li class="nav-item"><a href="../index.html">首頁</a></li>
+                    <li class="nav-item"><a href="../blog.html">部落格</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main lineB">
+            <section class="new-article flex lineB">
+                <img class="new-section"
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/About%20Section.png?raw=true"
+                    alt="自學前端不用怕：從零開始的三大關鍵">
+                <div class="card-body new-section flex">
+                    <div class="desc">
+                        <time class="date">2024-10-21</time>
+                        <div class="hashtag color-blue">
+                            <a href="javascript:;">前端開發 x 職涯成長</a>
+                            <div><a class="hotArticle btn-blue" href="javascript:;">最新文章</a></div>
+                        </div>
+                        <h3 class="title twoline-ellipsis">自學前端不用怕：從零開始的三大關鍵</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="article-wrap container">
+                <article class="article-content">
+                    <div class="h3-block">
+                        <h3 class="title color-blue">前言</h3>
+                        <p>嗨，我是
+                            Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」<br>其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
+                        </p>
+                    </div>
+                    <div class="h3-block">
+                        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content1.png?raw=true"
+                            alt="打好基礎：HTML、CSS、JavaScript">
+                        <h3 class="title color-blue">打好基礎：HTML、CSS、JavaScript</h3>
+                        <div class="h4-block">
+                            <h4 class="sub-title">HTML 與語意化</h4>
+                            <p class="article-desc">為何重要：HTML 是網頁結構的根基，語意化寫法（如 header, main, footer 等）能讓網頁更具可維護性與 SEO
+                                效益。</p>
+                            <p class="article-ul-title">建議做法：</p>
+                            <ol class="article-ol">
+                                <li class="artile-item">學習常見標籤的用途與屬性，如 <'section>、<'article>、<'nav>。
+                            </ol>
+                            <li class="artile-item">善用 MDN、W3Schools 等官方文件，找尋範例程式碼並練習。</li>
+                            </ol>
+                        </div>
+
+                        <div class="h4-block">
+                            <h4 class="sub-title">CSS 佈局與預處理器</h4>
+                            <p class="article-desc">為何重要：好看的網站來自穩定的排版與佈局，掌握 Flexbox、Grid 能讓你隨心所欲打造響應式頁面。</p>
+                            <p class="article-ul-title">建議做法：</p>
+                            <ol class="article-ol">
+                                <li class="artile-item">先掌握基礎 CSS 後，再學習 SASS 或 LESS 這類預處理器，提升樣式開發效率。</li>
+                                <li class="artile-item">善用 <span class="color-blue">CSS-Tricks</span> 等資源，了解常見版型技巧。
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="h4-block">
+                            <h4 class="sub-title">JavaScript 核心觀念</h4>
+                            <p class="article-desc">為何重要：互動效果、資料處理、前端邏輯都仰賴 JavaScript。</p>
+                            <p class="article-ul-title">建議做法：</p>
+                            <ol class="article-ul">
+                                <li class="artile-item">先打穩 ES5 與 ES6 語法基礎，理解閉包 (Closure)、原型鍊 (Prototype) 等核心機制。</li>
+                                <li class="artile-item">學會事件監聽、API 資料串接等常見應用，增添網站互動性。</li>
+                            </ol>
+                        </div>
+                        <p class="highlight">小結：在學習基礎語法時，同步進行小專案實作（如 Todo List、計算機、切版作品集）會讓你進步更快，也能累積展示用作品。</p>
+                    </div>
+                    <div class="h3-block">
+                        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content2.png?raw=true"
+                            alt="擅用主流框架與工具">
+                        <h3 class="title color-blue">擅用主流框架與工具</h3>
+                        <div class="h4-block">
+                            <h4 class="sub-title">React、Vue 先挑一個</h4>
+                            <ul class="article-ul">
+                                <li class="artile-item">React：生態系豐富、社群支援強，適合喜歡客製化的工程師。</li>
+                                <li class="artile-item">Vue：上手容易、檔案結構直覺，適合對「漸進式開發」有興趣的開發者。</li>
+                            </ul>
+                        </div>
+                        <p class="highlight">TIP：可以先看官方文件或跟著基礎教學做出小專案，感受哪個框架更順手。</p>
+                        <div class="h4-block">
+                            <h4 class="sub-title">版本控制、協作與建置</h4>
+                            <ul class="article-ul">
+                                <li class="artile-item">Git 與 GitHub：一定要掌握分支、Pull Request、Code Review 等流程，並熟悉 Git Flow 或
+                                    Trunk Based Development。</li>
+                                <li class="artile-item">打包工具：了解 Webpack、Vite、Parcel 等常見工具的基本原理與設定，對於優化與部署大有幫助。</li>
+                            </ul>
+                        </div>
+                        <div class="h4-block">
+                            <h4 class="sub-title">自動化測試與最佳實踐</h4>
+                            <ul class="article-ul">
+                                <li class="artile-item">測試框架：Jest、Mocha、Cypress 等，建立單元測試與 E2E 測試思維。</li>
+                                <li class="artile-item">程式結構與品質：遵循程式風格 (Lint)、維持命名規範、模組化思考，確保專案可維護。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <section class="other-article">
+                    <h3 class="title color-blue">延伸閱讀</h3>
+                    <ul class="article-ul">
+                        <li class="article-item"><a href="javascript:'">前端面試不再慌：破解常見提問的三大策略</a></li>
+                        <li class="article-item"><a href="javascript:'">掌握前端測試：從單元測試到端對端測試的完整攻略</a></li>
+                        <li class="article-item"><a href="javascript:'">SEO 與前端最佳實踐：讓搜尋引擎看見你的網站</a></li>
+                    </ul>
+                </section>
+                <div class="page-btn flex">
+                    <a class="btn-gray" href="javascript:;"><i class="bi bi-chevron-left"></i> 上一篇</a>
+                    <a class="btn-gray" href="javascript:;">下一篇 <i class="bi bi-chevron-right"></i></a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="contact flex container">
+                <p class="email"><a href="mailto:alysewang@hexschool.com">alysewang@hexschool.com</a></p>
+                <ul class="social-media flex">
+                    <li><a href="javascript:;"><img class="icon" src="../img/blog/IconYT.svg" alt="YT icon"></a></li>
+                    <li><a href="javascript:;"><img class="icon" src="../img/blog/IconPodcast.svg"
+                                alt="Podcast icon"></a></li>
+                    <li><a href="javascript:;"><img class="icon" src="../img/blog/IconFB.svg" alt="FB icon"></a></li>
+                    <li><a href="javascript:;"><img class="icon" src="../img/blog/iconlinkedin.svg"
+                                alt="linkedin icon"></a></li>
+                    <li><a href="javascript:;"><img class="icon" src="../img/blog/IconIG.svg" alt="IG icon"></a></li>
+                </ul>
+            </section>
+            <p class="copyright">© 2025 Alyse Wang. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
+
 </html>

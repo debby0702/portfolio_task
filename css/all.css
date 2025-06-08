@@ -146,12 +146,12 @@ h2, h3{
     color: #0027D5;
 }
 /* footer */
-.contact{
+.footer .contact{
     justify-content: space-between;
     margin: 80px auto;
 }
 
-.contact .email{
+.footer .email{
     font-size: 32px;
 }
 
