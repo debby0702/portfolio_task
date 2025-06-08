@@ -16,13 +16,17 @@ h2, h3{
 }
 
 /* 【模組】-------------------------------- */
-.container{
+.w-1296{
     margin: 0 auto;
     max-width: 1296px;
 }
+.w-636{
+    max-width: 636px;
+    margin: 0 auto;
+}
 
 @media (max-width:992px) {
-    .container{
+    .w-1296, .w-636{
         padding-left: 12px;
         padding-right: 12px;
     }
